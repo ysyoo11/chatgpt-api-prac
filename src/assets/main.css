@@ -14,8 +14,8 @@
   }
 
   a,
-  button {
-    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2;
+  button, input {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2;
   }
 
   [type="checkbox"] {
